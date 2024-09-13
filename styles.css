@@ -1,0 +1,68 @@
+body {
+    background-color: #0000a0;
+    color:#ff7300;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+body.dark-theme {
+    background-color: #ff7300;
+    color: #0000a0;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #353535;
+    padding-top: 1.5rem;
+}
+
+.theme-toggle {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #353535;
+    font-size: 1rem;
+}
+
+.theme-container {
+    display: flex; /* Flexbox for layout */
+    justify-content: end; /* Aligns the toggle text to the right */
+    background-color: #fff; /* Dark grey background color for header */
+    color: #353535; /* White text color */
+    padding-bottom: 1rem; /* Padding inside theme container */
+    padding-right: 3rem; /* Padding on the right side of the theme container */
+}
+
+section{
+    padding: 3rem;
+    margin: 1rem 0;
+}
+
+.about, .projects, .contact{
+    padding-top: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+ .education{
+    padding-top: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom:10rem;
+
+ }
+
+.projects{
+    margin-bottom: 1rem;
+
+}
+
+.project {
+    margin-bottom: 2rem;
+}
