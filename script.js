@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function (){
         body.classList.toggle('dark-theme');
 
         if(body.classList.contains('dark-theme')){
-            themeToggle.textContent = 'Light';
+            themeToggle.textContent = 'Dark Mode';
         } else {
-            themeToggle.textContent = 'Dark';
+            themeToggle.textContent = 'Light Mode';
         }
     }
 

@@ -1,7 +1,7 @@
 body {
-    background-color: #0000a0;
-    color:#ff7300;
-    font-family:'Times New Roman', Times, serif;
+    background-color: #000000;
+    color:#2ed803;
+    font-family: 'Courier', monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,8 +10,8 @@ body {
 }
 
 body.dark-theme {
-    background-color: #ff7300;
-    color: #0000a0;
+    background-color: #2ed803;
+    color: #000000;
 
 }
 
@@ -19,23 +19,23 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
-    color: #353535;
+    background-color: #000000;
+    color: #2ed803;
     padding-top: 1.5rem;
 }
 
 .theme-toggle {
     cursor: pointer;
     text-decoration: underline;
-    color: #353535;
+    color: #2ed803;
     font-size: 1rem;
 }
 
 .theme-container {
     display: flex; /* Flexbox for layout */
     justify-content: end; /* Aligns the toggle text to the right */
-    background-color: #fff; /* Dark grey background color for header */
-    color: #353535; /* White text color */
+    background-color: #000000; /* Dark grey background color for header */
+    color: #2ed803; /* White text color */
     padding-bottom: 1rem; /* Padding inside theme container */
     padding-right: 3rem; /* Padding on the right side of the theme container */
 }
